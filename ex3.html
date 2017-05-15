@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/*
+.wrap{
+	min-width: 600px;
+	margin: auto;
+	height: 800px;
+	
+}
+
+div.relative {
+    position: relative;
+  background-color:#ff6200;
+    height: 20px;
+    border: 0px solid #73AD21;
+} 
+
+div.absolute1{
+    position: absolute;
+    top: 0px;
+    left: 222px;
+	  
+}
+div.absolute2{
+    position: absolute;
+    top: 0px;
+    right:222px;
+	  
+}	
+div.logo_titles {
+    position: relative;
+  background-color:#E5E5E5;
+    height: 100px;
+} 
+
+div.logo{
+    position: absolute;
+    left: 220px;
+	float:left;
+}
+
+div.titles{
+    position: absolute;
+    right: 180px;	
+	float: left;
+
+}
+.titles, li {
+	list-style-type: none;
+    overflow: hidden;
+	float: left;
+}
+
+li a, .dropbtn_a, .dropbtn_1 {
+    display: inline-block;
+    color: gray;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown_a:hover .dropbtn_a, .dropdown_1:hover .dropbtn_1 {
+	border-bottom: 5px solid red;
+	color:green;
+	
+}
+
+.dropdown-content_a , .dropdown-content_1{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content_a a , .dropdown-content_1 a {
+    color: yellow;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content_a a:hover , .dropdown-content_1 a:hover {
+color: gray;
+background-color:green;}
+
+.dropdown_a:hover .dropdown-content_a , .dropdown_1:hover .dropdown-content_1 {
+    display: block;
+}
+
+.content{
+	width: 70%;
+	padding: 2px;
+	margin:auto;
+	background-color:blue;
+	height:600px;
+}
+
+.quote{
+	border: 1px solid white;
+	text-align: center;
+	padding: 5px;
+}
+
+
+.footer{
+	background-color: pink;
+	border: 1px solid white;
+	text-align:left;
+	padding: 2px;
+	clear:both;
+	text-align:center;
+} 
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn_a, li a, .dropbtn_1 {
+    display: inline-block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown_a:hover .dropbtn_a, li a:hover, .dropdown_1:hover .dropbtn_1 {
+    background-color: green;
+}
+
+li.dropdown_a, li.dropdown_1 {
+    display: inline-block;
+}
+
+.dropdown-content_a , .dropdown-content_1{
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content_a a , .dropdown-content_1 a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content_a a:hover , .dropdown-content_1 a:hover {
+color: gray;
+background-color:pink}
+
+.dropdown_a:hover .dropdown-content_a , .dropdown_1:hover .dropdown-content_1 {
+    display: block;
+}
+
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown_a">
+    <a href="javascript:void(0)" class="dropbtn_a">Dropdown</a>
+	<div class="dropdown-content_a"> <ul>
+  <li class="dropdown_1" ><a href="javascript:void(0)" class="dropbtn_1">This is a link</a>
+  <div class="dropdown-content_1">
+      <a href="#">Link 1 </a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div></li>
+  <li><a href="#">This is another</a></li>
+  <li><a href="#">Yet another</a></li>
+</ul>
+</div>
+    
+  </li>
+</ul>
+
+
+</body>
+</html>
